@@ -27,6 +27,12 @@ Run `python3 main.py`
    location. Extend the pydantic type(s) to include this data.
 4. BONUS#2: Implement Geocoding API calls as LLM-function calls.
 
+# Example implementation
+
+In example-implementation.py you will find a working implementation. Use it if
+you are stuck or confused, but do yourself a favour and try to implement things
+yourself first.
+
 # Happy coding (-:
 
 Any tools / help is allowed, be it LLMs, web searches or whatever. This is not
