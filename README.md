@@ -1,10 +1,13 @@
 # Setting up env
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install pydantic instructor openai python-dotenv requests
+```
 
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install pydantic instructor openai python-dotenv`
-or
-`pip install -r requirements.txt`
+Feel free to use conda or whatever else package management tool you use for
+your python project if you have other preferences.
+
 
 Put the API keys in a `.env` file in the root directory. It should follow the format of `.env.example`
 
